@@ -1,0 +1,133 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Hrishikesh Kharade} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{9594181897 \\ Mumbai} 
+\address{\href{mailto:contact@faangpath.com}{hrishikeshmk21@gmail.com} \\ \href{https://www.linkedin.com/in/hrishikesh-kharade-449b881bb//}{LinkedIn} \\
+\href{https://leetcode.com/u/hrishikesh21hr/}{LeetCode}}
+} \\ }  
+
+% https://leetcode.com/u/hrishikesh21hr/
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{}
+
+{ Dedicated Frontend Developer \textbf{2 Years 11 Months} of experience in the
+ Frontend Development, specializing in\textbf{ React.js and
+ JavaScript}. Skilled at creating responsive and user-friendly
+ web applications that enhance the user experience. Seeking
+ to leverage my skills and experience to contribute to a
+ Energetic and innovative team in the banking sector}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+% {\bf Master of Computer Science}, Stanford University \hfill {Expected 2020}\\
+% Relevant Coursework: A, B, C, and D.
+
+{\bf  Bachelors in Engineering } \textbf{Mumbai University} \hfill {2017 - 2021}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+ Programming Languages: JavaScript  ES6, HTML, CSS, TypeScript
+\\
+
+ Frameworks  Tools: ReactJs, Redux, Material UI, Postman, Git\\
+ Database and Cloud: MongoDB, MySQL\\
+ Other: Agile Development, Jira, Cypress, Express Js\\
+
+  \textcolor{white}{Firebase, Docker, AWS, Firebase,NodeJS, Rest APIs,Java, Asp.Net ,Data Structures and Algorithm, Machine Learning, Object Oriented Programming, Database Management}
+
+\end{tabular}\\
+\end{rSection}
+
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{}
+
+\textbf{Software Developer} \hfill \textbf{2021 - Present}\\
+\\
+\textbf{Finacus Solutions} \hfill \textit{Mumbai}
+
+ \begin{itemize}
+
+    \itemsep -3pt {} 
+    \item \textbf{Loan Origination System (LOS) :-}
+     \item Developed user authentication and authorization systems with React.js, ensuring data security compliance.
+\item Increased web app performance by {40\%} through code optimization, lazy loading, and Redux.
+ \item Enhanced data management efficiency by {25\%} with semantic, responsive UI components in React.js.
+\\
+\item \textbf{Core Banking Solution (CBS) :-}
+ 
+ \item Optimized transaction processing by {20\%} across three banks in the Core Banking Solution project.
+ \item Implemented Two-Factor Authentication (2FA) with JavaScript and Postman, reducing unauthorized access risks.
+ \item  Streamlined workflows using advanced Git features to boost team collaboration.
+
+ \item Collaborated with cross-functional teams to deliver project milestones on time.
+ \item Diagnosed and resolved critical application issues, improving user experience and reliability.
+
+    
+ \end{itemize}
+ 
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Event Planner Website :} Created an event planning website using MongoDB, Express.js, React, Node.js, and Next.js. This site allows users to easily create, manage events. It increased user engagement by {40\% } and gained over 200 active users in just three months. The project was open-sourced, allowing people from around the world to contribute. 
+ \href{https://mern-stack-event-planning-website.vercel.app/}{(Try it here)}}
+\item \textbf{ File Sharing App : } {Developed a secure file sharing application using React.js and Express.js, with MongoDB for data storage. Implemented user authentication to protect data privacy and facilitated over 500 successful file transfers, enabling seamless sharing of large files.}
+ \href{https://mern-file-sharing-app-one.vercel.app/}{{(Try it Here)}}
+% \item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% \begin{rSection}{Extra-Curricular Activities} 
+% \begin{itemize}
+%     \item 	Actively write \href{https://www.faangpath.com/blog/}{blog posts} and social media posts (\href{https://www.tiktok.com/@faangpath}{TikTok}, \href{https://www.instagram.com/faangpath/?hl=en}{Instagram}) viewed by over 20K+ job seekers per week to help people with best practices to land their dream jobs. 
+%     \item	Sample bullet point.
+% \end{itemize}
+
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXTRA-CURRICULAR ACTIVITIES} 
+\begin{itemize}
+    \item Completed '30 Days of React' coding challenge on Codecademy, gaining practical experience in building React
+ applications.} 
+\end{itemize}
+
+ % \textcolor{white}{React.js, JavaScript, TypeScript, Redux, RESTful APIs, Node.js, Git, GitHub, GitLab, Agile, Scrum, Frontend Development, Backend Development, User Authentication, Authorization, Two-Factor Authentication (2FA), State Management, Web Performance Optimization, Lazy Loading, Security Compliance, Responsive Design, Cross-Browser Compatibility, Data Management, Cloud Computing, AWS, Azure, Google Cloud, CI/CD, Continuous Integration, Continuous Deployment, Version Control, Unit Testing, Integration Testing, API Integration, Collaboration, Leadership, Problem Solving, Mentorship, Communication, Time Management, Critical Thinking, Project Management, Cross-Functional Teams, Optimized, Enhanced, Improved, Accelerated, Boosted, Streamlined, Designed, Developed, Implemented, Architected, Led, Delivered, Deployed, Debugged, Resolved, Automated, Secured, Achieved}
+
+\end{rSection}
+
+
+\end{document}
