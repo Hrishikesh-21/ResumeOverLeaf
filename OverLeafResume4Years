@@ -1,0 +1,107 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Hrishikesh Kharade} % Your name
+\address{9594181897 \\ Mumbai} 
+\address{\href{mailto:hrishikeshmk21@gmail.com}{hrishikeshmk21@gmail.com} \\ 
+\href{https://www.linkedin.com/in/hrishikesh-kharade-449b881bb/}{LinkedIn} \\
+\href{https://leetcode.com/u/hrishikesh21hr/}{LeetCode}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Summary}
+Dedicated \textbf{Full Stack Developer} with nearly \textbf{4 years of experience} specializing in \textbf{React.js, JavaScript, Django, AWS and Python}.  Proven expertise in building  scalable, secure, and user-friendly applications across the \textbf {Banking and Enterprise Domains}. Skilled in both \textbf{Frontend and Backend Development}, \textbf{workflow automation}, and \textbf{AI-powered solutions}. Adept at collaborating with cross-functional teams to deliver impactful, high-performance software that meets business and industry needs.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Bachelor of Engineering}, Mumbai University \hfill {2017 -- 2021}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages: & \textbf{JavaScript, TypeScript, Python, SQL} \\
+Frameworks Libraries & \textbf{React.js, Redux, Django, Express.js, JWT } \\
+Databases: & \textbf{PostgreSQL, MongoDB, MySQL} \\
+Cloud \& Tools: & \textbf{AWS (EC2, S3), Docker, Git, Jira, Postman, Apache Airflow} \\
+Other: & \textbf{Agile Development, CI/CD, REST APIs, Cypress, Authentication} \\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\textbf{Software Developer} \hfill \textbf{Jan 2025 -- Present} \\
+\textbf{Tata Technologies} (EnterPrise Domain) \hfill \textit{Maharashtra, India}
+\begin{itemize}
+    \item Developed  full stack web applications using \textbf{React.js} (frontend) and \textbf{Django} (backend), improving scalability and maintainability.
+    \item Applied \textbf{PostgreSQL} database solutions to optimize query performance and ensure data integrity.
+    \item Deployed production-ready applications on \textbf{AWS EC2} with \textbf{Docker}, ensuring high availability and cost efficiency.
+    \item Automated workflows and data pipelines using \textbf{Apache Airflow}, reducing manual intervention and processing time by \textbf{30\%}.
+    \item Built a custom \textbf{AI Agent} to support data-driven decision-making, enhancing system intelligence and automation.
+\end{itemize}
+
+\textbf{Software Developer} \hfill \textbf{2021 -- Dec 2024} \\
+\textbf{Finacus Solutions} (Banking Domain) \hfill \textit{Mumbai, India}
+\begin{itemize}
+    \item \textbf{Loan Origination System (LOS):} Applied secure user authentication and authorization with React.js, ensuring compliance with industry standards.
+    \item Increased web app performance by \textbf{40\%} through optimization, lazy loading, and Redux state management.
+    \item Enhanced data management efficiency by \textbf{25\%} with responsive UI components.
+    \item \textbf{Core Banking Solution (CBS):} Optimized transaction processing by \textbf{20\%} across three banks, improving overall customer experience.
+    \item Applied \textbf{Two-Factor Authentication (2FA)} using JavaScript and Postman, reducing unauthorized access incidents.
+    \item Collaborated with cross-functional teams, streamlined workflows with Git, and resolved critical application issues.
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\item \textbf{MovieMania:} Developed and developed a responsive movie dashboard using \textbf{React.js} and the \textbf{TMDB API}, enabling users to search, browse movies with \textbf{Infinite scrolling} , \textbf{AutoComplete And Debouncing}. Integrated dynamic trailers and movie previews to enhance engagement.  
+-- Built an optimized API handling layer, raising questions around performance tuning and third-party API integration.  
+-- Created reusable UI components, opening discussions on modular design and scalability.
+
+\item \textbf{Apple Website Clone:} Built a modern \textbf{e-commerce web UI} inspired by Apple’s product pages using \textbf{React.js} and \textbf{Redux Toolkit}. Applied a global state management system to handle shopping cart, product filters, and checkout flows.  
+-- Applied seamless cart synchronization across components, leading to potential interview questions on \textbf{state management and Redux best practices}.  
+-- Developed pixel-perfect, responsive layouts, which can prompt questions on CSS architecture, accessibility, and UI performance.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Certifications}
+\begin{itemize}
+    \item \textbf{Data Science \& Analytics} – HP \hfill Jul 2025  
+ 
+    \item \textbf{Generative AI Professional} – Oracle \hfill Jul 2025  
+
+    \item \textbf{Python Certificate} – HackerRank \hfill Jun 2025  
+   
+    \item \textbf{React Certification} – HackerRank \hfill Feb 2025  
+  
+    \item \textbf{JavaScript Intermediate} – HackerRank \hfill Dec 2024  
+   
+\end{itemize}
+\end{rSection}
+\end{document}
